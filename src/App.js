@@ -3,6 +3,7 @@ import { Piechart } from './components/charts/Piechart';
 import { Polarchart } from './components/charts/Polarchart';
 import { Radarchart } from './components/charts/Radarchart';
 import { Bar, VerticalBar } from './components/charts/Verticalbarchart';
+import Sample from './components/sample';
 import Forecast from './components/Weather';
 
 function App() {
@@ -20,8 +21,10 @@ function App() {
 <div >
 <Piechart />
 <Radarchart />
+<Sample />
 <Polarchart />
 <VerticalBar />
+
 <footer>
        Charts
       </footer>
